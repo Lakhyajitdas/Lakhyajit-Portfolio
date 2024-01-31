@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Projects {
+    text-align: center;
+    color: #333;
+}
+
+.Android-App,
+.Web-Development,
+.Machine-Learning {
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; /* Blue */
+}
+.links{
+    text-align: right;
+    color: #426ec0;
+}
+
+h3 {
+    text-align: center;
+    color: #28a745; /* Green */
+}
+
+a {
+    text-decoration: none;
+    color: #4a4949; /* Red */
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #c82333; /* Darker Red */
+}
+
+h4 {
+    color: #ffc107; /* Yellow */
+}
+
+p {
+    color: #040404; /* Turquoise */
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Add this line */
+    margin: 0 auto; /* Add this line */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ----- SMOOTH SCROLL ----- */
+
+  .scroll-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    translate: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--text-color-second);
+    background: var(--color-white);
+    border-radius: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+  .scroll-btn i {
+    font-size: 20px;
+  }
+    

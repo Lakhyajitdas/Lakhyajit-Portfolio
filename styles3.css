@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+#header {
+    background-color: #8e6d6d;
+    color: #fff;
+    padding: 10px 10px;
+    
+   
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.nav-menu {
+    display: inline-block;
+}
+
+.nav-button {
+    display: inline-block;
+}
+
+.nav-menu-btn {
+    display: inline-block;
+}
+
+.nav-menu-btn i {
+    cursor: pointer;
+}
+
+/* Main Styles */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin-bottom: 20px;
+}
+
+.featured-text {
+    flex: 1;
+}
+
+.featured-image {
+    flex: 1;
+    text-align: center;
+}
+
+.scroll-icon-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Experience Section Styles */
+.exp {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+
+.intern {
+    margin-bottom: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.links a:hover {
+    color: #007bff;
+}
+
+/* Add more styles as needed */
